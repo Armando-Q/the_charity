@@ -1,0 +1,57 @@
+body{
+    background-image: url("images/background_2.jpg");
+    background-position:  bottom bottom;
+    background-size: 60% 250%;
+}
+
+h1{
+    font-style: bolder;
+    font-size: 500%;
+    text-align: center;
+    margin: 0;
+    color: green;
+}
+h2{
+    max-width: 700px;
+    width: auto;
+    font-style: initial;
+    margin: 0;
+    font-size: xx-large;
+    text-align: left;
+    display: table;
+    float: left;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+.English{
+  position: absolute;
+  bottom: 120px;
+  left: 16px;
+  height: 30%;
+
+}
+.passport{
+    position:absolute;
+    bottom: 120px;
+    right: 16px;
+    height: 40%;
+
+}
+button{
+    color:white;
+    font-weight: bolder;
+    background-color: chartreuse;
+    padding: 15px 32px;
+    font-size: x-large;
+    cursor: pointer;
+    
+}
+.container{
+    width: 150px;
+    height: 150px;
+    border:5px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
